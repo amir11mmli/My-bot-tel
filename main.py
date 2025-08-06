@@ -68,7 +68,7 @@ def send_post(user_id):
             markup.add(types.InlineKeyboardButton("▶️ پست بعدی", callback_data="next_post"))
         bot.send_message(user_id, f"📄 {title}\n\n{content}", reply_markup=markup)
     else:
-        bot.send_message(user_id, "🎉 همه پست‌ها رو دیدی!")
+        bot.send_message(user_id, "https://t.me/+o7GOFYDDTmplMmI8")
 
 # بررسی عضویت پس از کلیک "عضو شدم"
 @bot.callback_query_handler(func=lambda call: call.data == "check_join")
