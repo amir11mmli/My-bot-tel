@@ -3,7 +3,7 @@ from telebot import types
 from flask import Flask
 import threading
 
-API_TOKEN = '8134019036:AAF03l5fvkXot7T_HiDClneKkgTGNi8YCrQ'
+API_TOKEN = '18134019036:AAF03l5fvkXot7T_HiDClneKkgTGNi8YCrQ'
 CHANNELS = ['@sakvny']  # کانال عمومی شما
 
 bot = telebot.TeleBot(API_TOKEN)
